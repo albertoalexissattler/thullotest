@@ -1,0 +1,55 @@
+.button{
+    width: fit-content;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid rgba(204, 204, 204, 0.479);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 5px 10px rgba(204, 204, 204, 0.233);
+    outline: none;
+}
+
+/*Button sizes*/
+.small{
+    padding: 5px 7px;
+}
+
+/*Special*/
+.only-text{
+    border: none;
+    box-shadow: none;
+}
+
+.border-radius-none{
+    border-radius: unset;
+}
+
+.border-radius-left{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.border-radius-right{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.small-br{
+    border-radius: 5px;
+}
+
+/*Button colors*/
+.btn-red{
+    background-color: var(--red);
+    color: white;
+    font-size: 1rem;
+}
+
+.btn-red .text{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.border-black{
+    border-color: black;
+}

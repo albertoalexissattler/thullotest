@@ -1,0 +1,28 @@
+.text{
+    font-size: 1rem;
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+
+/*Font colors*/
+.gray{
+    color: var(--gray-txt);
+}
+
+/*Font sizes*/
+.small{
+    font-size: 0.9rem;
+}
+.large{
+    font-size: 2rem;
+}
+
+/*Special*/
+.bold{
+    font-weight: 600;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}

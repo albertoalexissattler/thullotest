@@ -1,0 +1,8 @@
+.qunatity{
+    display: flex;
+    align-items: center;
+}
+
+.qunatity .qunatity-number{
+    margin: 0 20px;
+}

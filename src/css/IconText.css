@@ -1,0 +1,8 @@
+.icon-text{
+    display: flex;
+    align-items: center;
+}
+
+.icon-text .text{
+    margin-left: 10px;
+}

@@ -1,0 +1,40 @@
+.modal{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+.modal .modal-options{
+    width: 100%;
+    background-color: white;
+    min-height: 40%;
+    display: grid;
+    grid-template-columns: 30% 30% 10%;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.modal .modal-options .input-container{
+    margin-bottom: 20px;
+}
+
+.modal .modal-options .quantity-form{
+    margin-bottom: 50px;
+}
+
+.modal .modal-options .list{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal .modal-options .quantity-form > *{
+    margin-bottom: 10px;
+}
+
+.modal .text-container{
+    margin-bottom: 30px;
+}

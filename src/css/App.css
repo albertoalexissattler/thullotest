@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    --gray-txt: rgb(167, 167, 167);
+    --red: #EB5757;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#root{
+    width: 85%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.hidden{
+    display: none;
+}
+
+.filter-options .button{
+    height: 100%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .stays-container .stays-container-body{
+        grid-template-columns: auto;
+    }
+
+    .modal{
+        padding-bottom: 20px;
+        
+    }
+
+    .modal .modal-options{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+        padding-left: 50px;
+    }
+
+    .modal .modal-options .column{
+        margin-bottom: 40px;
+    }
+
+    .modal .modal-options .column .list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modal .modal-options .column .list > *{
+        margin-bottom: 10px;
+    }
+}
